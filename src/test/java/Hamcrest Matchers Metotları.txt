@@ -14,4 +14,6 @@
         11. allOf(): Belirtilen tüm şartların doğru olup olmadığını kontrol eder.
         12. greaterThan(), greaterThanOrEqualTo(), lessThan(), lessThanOrEqualTo(): Sayısal değerleri karşılaştırmak için kullanılan metotlar.
 
+
+https://thinking-tester-contact-list.herokuapp.com/
      */
