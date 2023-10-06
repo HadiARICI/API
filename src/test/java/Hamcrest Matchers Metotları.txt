@@ -16,4 +16,9 @@
 
 
 https://thinking-tester-contact-list.herokuapp.com/
+
+ödev
+POST/ User
+GET/user/{username}
+DELETE/user/{username}
      */
