@@ -22,3 +22,16 @@ POST/ User
 GET/user/{username}
 DELETE/user/{username}
      */
+
+          Post Yaparken
+     * post yaparken bir body ihtiyacımız var
+     * post yarken ContentType.JSON
+
+
+     postman de rapor almak için
+     NEWMAN REPORT KURULUMU
+     - Node.js kurulur
+     - npm install -g newman
+     - npm install -g newman-reporter-htmlextra
+     NEWMAN REPORT ALMA
+     - newman run "collection path" -r htmlextra --iteration-count 3 --delay-request 100
