@@ -19,7 +19,7 @@ public class AuthenticationContactList {
                 .post("https://thinking-tester-contact-list.herokuapp.com/users/login");
       response.prettyPrint();
 
-      return response.jsonPath().getString("toke");
+      return response.jsonPath().getString("token");
 
     }
 
