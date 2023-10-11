@@ -15,5 +15,4 @@ public class HerokuAppBaseUrl {
                 .setBaseUri("https://restful-booker.herokuapp.com")
                 .build();
     }
-
 }
