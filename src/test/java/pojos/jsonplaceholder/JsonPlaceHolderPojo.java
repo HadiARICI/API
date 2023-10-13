@@ -19,12 +19,8 @@ public class JsonPlaceHolderPojo {
     }
 
     // 3. Getter ve Setter metotlarını oluştur
-    public Integer getUserId() {
-        return userId;
-    }
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
+    public Integer getUserId() {return userId; }
+    public void setUserId(Integer userId) { this.userId = userId;    }
     public String getTitle() {
         return title;
     }
