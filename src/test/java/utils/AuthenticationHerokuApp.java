@@ -15,5 +15,5 @@ public class AuthenticationHerokuApp {
 
         Response response = given().body(body).contentType(ContentType.JSON).when().post("https://restful-booker.herokuapp.com/auth");
         return response.jsonPath().getString("token");
-    }
+    }                                                                                      //https://restful-booker.herokuapp.com/auth
 }
