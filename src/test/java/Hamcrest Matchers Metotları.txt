@@ -35,3 +35,18 @@ DELETE/user/{username}
      - npm install -g newman-reporter-htmlextra
      NEWMAN REPORT ALMA
      - newman run "collection path" -r htmlextra --iteration-count 3 --delay-request 100
+
+
+     ===Gmibank
+     https://www.gmibank.com/
+     8:33
+     mark_twain
+     Mark.123
+     8:33
+     https://app.swaggerhub.com/apis/yasinaniltechpro/GmiBank/0.0.1#/
+     8:33
+          /*
+             https://app.swaggerhub.com/apis/yasinaniltechpro/GmiBank/0.0.1 dokümanını kullanarak en az 3 "state"
+             içeren bir "country" oluşturan bir otomasyon testi yazınız.
+             Not : Autherization için headers'a "Authorization" = ""Bearer abc123"  şeklinde Bearer token giriniz.
+          */
